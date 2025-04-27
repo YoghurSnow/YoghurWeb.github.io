@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Travel !</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <!-- 字体更改,外部链接 -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      />
+</head>
+<body>
+
+    <!-- ================Header =============Start -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="./imgp/logo透明3.png" alt="">
+                </div>
+                <ul>
+                    <div class="btn">
+                        <i class="fas fa-times close-btn"></i>
+                    </div>
+                    <li><a href="#">主页</a></li><!-- Home -->             
+                    <li><a href="#">关于</a></li><!-- About -->              
+                    <li><a href="#">旅游</a></li><!-- Tours -->               
+                    <li><a href="#">目的地</a></li><!-- Destination -->               
+                    <li><a href="#">Gallery</a></li><!-- Gallery --> 
+                    <li><a href="#">联系我们</a></li><!-- Contact -->
+                </ul>
+                <div class="btn">
+                    <i class="fas fa-bars menu-btn"></i>
+                </div>
+                <!-- 话说还差一个注册|登录........ -->
+            </nav>
+        </div>
+    </header>
+    <!-- ================Header =============Close -->
+
+    <!-- ================Showcase =============start -->
+    <main>
+        <div class="slide-container swiper">
+            <div class="slide-content swiper-wrapper">
+
+                <div class="overlay swiper-slide">
+                    <img src="./imgp/show-case-1.png" alt="">
+                    <div class="img-overlay">
+                        <p>让我们共游世界!</p><!--1 Let's Travel the World with us ! -->
+                        <h2>与我们的导游1一起</h2><!--3 with our Guide -->
+                        <h2><span>探索</span>这个世界</h2><!--2 Discover  The World -->
+                    </div>
+                </div>
+                <div class="overlay swiper-slide">
+                    <img src="./imgp/show-case-2.png" alt="">
+                    <div class="img-overlay">
+                        <p>让我们共游世界!</p><!--1 Let's Travel the World with us ! -->
+                        <h2>与我们的导游2一起</h2><!--3 with our Guide -->
+                        <h2><span>探索</span>这个世界</h2><!--2 Discover  The World -->
+                    </div>
+                </div>
+                <div class="overlay swiper-slide">
+                    <img src="./imgp/show-case-3.png" alt="">
+                    <div class="img-overlay">
+                        <p>让我们共游世界!</p><!--1 Let's Travel the World with us ! -->
+                        <h2>与我们的导游3一起</h2><!--3 with our Guide -->
+                        <h2><span>探索</span>这个世界</h2><!--2 Discover  The World -->
+                        
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </main>
+
+    <!-- ================Showcase =============Close -->
+
+
+    <!-- ================Search location =============start -->
+    <section id="location-search">
+        <div class="container">
+            <div class="form-wrapper">
+                <form action="#">
+                    <input type="text" placeholder="想去哪里?" class="form-control">
+                    <select class="form-control">
+                        <option value="Destination">目的地</option>
+                        <option value="Destination">北京</option>
+                        <option value="Destination">天津</option>
+                        <option value="Destination">河北</option>
+                        <option value="Destination">山西</option>
+                        <option value="Destination">内蒙古</option>
+                        <option value="Destination">辽宁</option>
+                        <option value="Destination">吉林</option>
+                        <option value="Destination">黑龙江</option>
+                        <option value="Destination">上海</option>
+                        <option value="Destination">江苏</option>
+                        <option value="Destination">浙江</option>
+                        <option value="Destination">安徽</option>
+                        <option value="Destination">福建</option>
+                        <option value="Destination">江西</option>
+                        <option value="Destination">山东</option>
+                        <option value="Destination">河南</option>
+                        <option value="Destination">湖北</option>
+                        <option value="Destination">湖南</option>
+                        <option value="Destination">广东</option>
+                        <option value="Destination">广西</option>
+                        <option value="Destination">海南</option>
+                        <option value="Destination">重庆</option>
+                        <option value="Destination">四川</option>
+                        <option value="Destination">贵州</option>
+                        <option value="Destination">云南</option>
+                        <option value="Destination">西藏</option>
+                        <option value="Destination">陕西</option>
+                        <option value="Destination">甘肃</option>
+                        <option value="Destination">青海</option>
+                        <option value="Destination">宁夏</option>
+                        <option value="Destination">新疆</option>
+
+                    </select>
+                    <select class="form-control">
+                        <option value="Duration">持续时间</option>
+                        <option value="day-1">1 天</option>
+                        <option value="2-4 day">2-4 天</option>
+                        <option value="5-7 day">5-7 天</option>
+                        <option value="7+ day">7+ 天</option>
+
+                    </select>
+                    <button type="button" class="primary-btn">搜索</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================Search location =============close -->
+
+
+    <!-- ================about =============start -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content-wrapper">
+                <div class="angency-left-side">
+                    <p class="heading-normal-txt">最佳旅行社</p><!-- THE BEST TRAVEL ANGENCY -->
+                    <h2 class="headings">探索这个<span>世界</span>与我们的导游</h2>
+                    <p class="lead">
+                        你可以选择任何一个旅游胜地。比如在风景如画的Agency elementum sesue，
+                        这里有着独特的自然景观。想象一下，漫步在aucan vestibulum的幽静小径上，
+                        两旁是郁郁葱葱的aliquam植物，它们在微风中轻轻摇曳，散发出淡淡的清香。
+
+                        脚下是柔软的草地，而远处的rutrum山谷在阳光的照耀下，呈现出一片生机勃勃的景象。
+                        这里的Donec植物在quis的pellentesque区域中茁壮成长，它们的枝叶繁茂，
+                        为这片土地增添了一份宁静与祥和。而当你来到id的山谷，你会被那弧形的posuere瀑布
+                        所震撼。瀑布的水流从高处倾泻而下，溅起无数晶莹的水花，在阳光下闪烁着耀眼的光芒，
+                        仿佛是大自然最动人的诗篇。
+                        <br><br>
+                        无论是探索这片土地上的自然奇观，还是沉浸在这宁静的自然氛围中，你都会感受到一种
+                        难以言喻的宁静与满足。
+                        <br><br>
+                    </p>
+                    <p class="lead">
+                        酒店的入口处简洁而优雅，大厅宽敞明亮，没有令人讨厌的杂物。各种各样的装饰和建筑
+                        元素相互映衬，展现出一种独特的美感。这里仿佛是一个孕育着自然之美的地方，让人感
+                        受到宁静与和谐。
+                        
+                    </p>
+                    <ul>
+                        <li>
+                            <div class="icons">
+                                <i class="fa fa-check"></i>
+                                <p>20年的经验</p><!-- 20 Year of Experience -->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icons">
+                                <i class="fa fa-check"></i>
+                                <p>150个旅游目的地</p><!-- 150 Tour Destination -->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icons">
+                                <i class="fa fa-phone-volume"></i>
+                                <p>855 333 6666</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="angency-right-side">
+                    <div class="img">
+                        <img src="./imgp/about2.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================about =============close -->
+
+    
+    <!-- ================choose your place =============start -->
+    <section id="choose-place">
+        <div class="container">
+            <p class="heading-normal-txt">选择你想去的地方</p>
+            <h2 class="headings">热门<span>旅游方案</span></h2>
+            <div class="choose-wrapper">
+                <div class="img-left-side">
+                    <div class="lg-img">
+                        <img src="./imgp/lake.jpg" alt="">
+                        <div class="img-content">
+                            <h2>平静的湖-旅游</h2>
+                            <div class="hidden-content">
+                                <span><i class="fa fa-clock"> 10 天</i></span>
+                                <span><i class="fa fa-user"> 12+ </i></span>
+                                <span><i class="fa fa-location-dot"> 平静的湖 </i></span>
+                            </div>                            
+                        </div>
+                        <div class="price-label">
+                            <p>3,000￥</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-right-side">
+                    <div class="lg-img">
+                        <img src="./imgp/江汉路.jpg" alt="">
+                        <div class="img-content">
+                            <h2>武汉-江汉路步行街-旅游</h2>
+                            <div class="hidden-content">
+                                <span><i class="fa fa-clock"> 3 天</i></span>
+                                <span><i class="fa fa-user"> 300+ </i></span>
+                                <span><i class="fa fa-location-dot"> 武汉-江汉路 </i></span>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>1,000￥</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row wise images -->
+             <div class="row-wise-img">
+                <div class="lg-img">
+                    <img src="./imgp/武汉长江大桥.jpg" alt="">
+                    <div class="img-content">
+                        <h2>武汉-长江大桥-旅游</h2>
+                        <div class="hidden-content">
+                            <span><i class="fa fa-clock"> 1 天</i></span>
+                            <span><i class="fa fa-user"> 200+ </i></span>
+                            <span><i class="fa fa-location-dot"> 武汉-长江大桥 </i></span>
+                        </div>
+                    </div>
+                    <div class="price-label">
+                        <p>100￥</p>
+                    </div>
+                </div>
+                <div class="lg-img">
+                    <img src="./imgp/武汉.jpg" alt="">
+                    <div class="img-content">
+                        <h2>武汉-武漢-旅游</h2>
+                        <div class="hidden-content">
+                            <span><i class="fa fa-clock"> 5 天</i></span>
+                            <span><i class="fa fa-user"> 1,000+ </i></span>
+                            <span><i class="fa fa-location-dot"> 武汉-武漢 </i></span>
+                        </div>
+                    </div>
+                    <div class="price-label">
+                        <p>2,000￥</p>
+                    </div>
+                </div>
+                <div class="lg-img">
+                    <img src="./imgp/江汉路(3).jpg" alt="">
+                    <div class="img-content">
+                        <h2>武汉-江汉路-旅游</h2>
+                        <div class="hidden-content">
+                            <span><i class="fa fa-clock"> 3 天</i></span>
+                            <span><i class="fa fa-user"> 1,800+ </i></span>
+                            <span><i class="fa fa-location-dot"> 武汉-江汉路 </i></span>
+                        </div>
+                    </div>
+                    <div class="price-label">
+                        <p>1,200￥</p>
+                    </div>
+                </div>
+                
+
+             </div>
+
+        </div>
+
+    </section>
+    <!-- ================choose your place =============close -->
+
+
+    <!-- ================static counter numbers =============start -->
+    <section id="static-counter">
+        <div class="container">
+            <div class="static-wrapper">
+                <div class="static-icons">
+                    <i class="fa fa-plane-departure"></i>
+                    <p class="numbers" data-ceil="600">600</p>
+                    <p class="txt">飞机出行</p>
+                </div>
+                <div class="static-icons">
+                    <i class="fa fa-home"></i>
+                    <p class="numbers" data-ceil="270">270</p>
+                    <p class="txt">绝妙旅行</p>
+                </div>
+                <div class="static-icons">
+                    <i class="fa fa-train"></i>
+                    <p class="numbers" data-ceil="1100">1100</p>
+                    <p class="txt">高铁出行</p>
+                </div>
+                <div class="static-icons">
+                    <i class="fa fa-ticket"></i>
+                    <p class="numbers" data-ceil="3000">3000</p>
+                    <p class="txt">出行订票</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================static counter numbers =============close -->
+
+
+    <!-- ================Top destination =============start -->
+    <section id="top-destination">
+        <div class="container">
+            <p class="heading-normal-txt">顶级旅游景点</p>
+            <h2 class="headings">热门<span>旅游景点</span></h2>
+
+            <div class="top-destination-wrapper swiper2">
+                <!-- 多张图片(但是图片最好是长的吧(图片大小要一样),虽然但是没长图),基本上是重复代码↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+                <div class="swiper-wrapper">
+
+                    <div class="carousel swiper-slide">
+                        <img src="./imgp/top destination.jpg" alt="">
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>湖山桥韵</h2>
+                                <div class="hidden-content-carousel">
+                                    <span>4种旅游方案</span><!-- 下面超链接点击探索就会跳转(还没有加链接!!!!!) -->
+                                    <a href="#" 
+                                        ><span>探索</span><i class="fa fa-arrow-right"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>15% off</p>
+                        </div>
+                    </div>
+                    <div class="carousel swiper-slide">
+                        <img src="./imgp/富士山.png" alt="">
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>富士山</h2>
+                                <div class="hidden-content-carousel">
+                                    <span>3种旅游方案</span><!-- 下面超链接点击探索就会跳转(还没有加链接!!!!!) -->
+                                    <a href="#" 
+                                        ><span>探索</span><i class="fa fa-arrow-right"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>5,000￥</p>
+                        </div>
+                    </div>
+                    <div class="carousel swiper-slide">
+                        <img src="./imgp/枫丹.jpg" alt="">
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>原神-枫丹</h2>
+                                <div class="hidden-content-carousel">
+                                    <span>6种旅游方案</span><!-- 下面超链接点击探索就会跳转(还没有加链接!!!!!) -->
+                                    <a href="#" 
+                                        ><span>探索</span><i class="fa fa-arrow-right"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>New</p>
+                        </div>
+                    </div>
+                    <div class="carousel swiper-slide">
+                        <img src="./imgp/艾洛新都.jpg" alt="">
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>艾洛新都</h2>
+                                <div class="hidden-content-carousel">
+                                    <span>5种旅游方案</span><!-- 下面超链接点击探索就会跳转(还没有加链接!!!!!) -->
+                                    <a href="#" 
+                                        ><span>探索</span><i class="fa fa-arrow-right"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>200￥</p>
+                        </div>
+                    </div>
+                    <div class="carousel swiper-slide">
+                        <img src="./imgp/崩铁.jpg" alt="">
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>崩铁</h2>
+                                <div class="hidden-content-carousel">
+                                    <span>7种旅游方案</span><!-- 下面超链接点击探索就会跳转(还没有加链接!!!!!) -->
+                                    <a href="#" 
+                                        ><span>探索</span><i class="fa fa-arrow-right"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>700￥</p>
+                        </div>
+                    </div>
+
+                    <!-- 多张图片,重复代码 ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================Top destination =============close -->
+
+
+    <!-- ================video bg =============start -->
+    <section id="costa-victoria">
+        <div class="video-bg">
+            <video autoplay muted loop preload="auto">
+                <source src="./imgp/bg海浪.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="container">
+            <div class="video-content">
+                <h2>大西洋海岸Coast</h2>
+                <span><i class="fa fa-clock"></i> 10 天</span>
+                <span><i class="fa fa-user"></i> 12+</span>
+                <span><i class="fa fa-location-dot"></i> 大西洋</span>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================video bg =============close -->
+
+
+
+    <!-- ================旅游proviences =============start -->
+    <section id="travel-proviences">
+        <div class="container">
+            <p class="heading-normal-txt">最热门</p>
+            <h2 class="headings">旅游<span>省份</span></h2>
+
+            <!-- 湖北 -->
+            <div class="travel-proviences-wrapper">
+                <div class="proviences-content">
+                    <h2 class="secondary-headings">武汉 · 湖北</h2>
+                    <p class="lead">
+                        湖北的旅游景点丰富多彩。江汉路步行街是购物和美食的天堂，
+                        老建筑与现代店铺交相辉映，热闹非凡。黄鹤楼作为武汉的标
+                        志性建筑，登楼远眺，长江美景尽收眼底。长江大桥更是雄伟
+                        壮观，走在桥上，感受江风拂面，仿佛置身于一幅流动的画卷。
+                        这些地方各具特色，是游客来湖北不容错过的打卡地。
+                    </p>
+                    <ul>
+                        <div class="proviences-names">
+                            <li><i class="fa fa-location-dot"></i>湖北</li>
+                            <li><i class="fa fa-location-dot"></i>上海</li>
+                            <li><i class="fa fa-location-dot"></i>浙江</li>
+                        </div>
+                        <div class="proviences-names">
+                            <li><i class="fa fa-location-dot"></i>北京</li>
+                            <li><i class="fa fa-location-dot"></i>广东</li>
+                            <li><i class="fa fa-location-dot"></i>广西</li>
+                        </div>
+                        <div class="proviences-names">
+                            <li><i class="fa fa-location-dot"></i>哈尔滨</li>
+                            <li><i class="fa fa-location-dot"></i>西藏</li>
+                            <li><i class="fa fa-location-dot"></i> . . . </li>
+                        </div>
+                            
+                        
+                    </ul>
+                    <button type="butten" class="primary-btn">
+                        所有旅行省份合集<i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="slider-content-wrapper swiper3">
+                    <!-- 幻灯片播放,重复代码 -->
+                    <div class="swiper-wrapper">
+                        
+                        <div class="carousel swiper-slide">
+                            <img src="./imgp/东湖.jpg" alt="">
+                            <div class="carousel-img-overlay">
+                                <div class="img-content">
+                                    <h2><i class="fa fa-location-dot"></i>东湖</h2>
+                                    <div class="hidden-content-carousel">
+                                        <span><i class="fa fa-clock"> 3 天</i></span>
+                                        <span><i class="fa fa-user"> 246+ </i></span>
+                                        <span><i class="fa fa-location-dot"> 武汉</i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-label">
+                                <p>100￥</p>
+                            </div>
+                        </div>
+                        <div class="carousel swiper-slide">
+                            <img src="./imgp/古德寺.jpg" alt="">
+                            <div class="carousel-img-overlay">
+                                <div class="img-content">
+                                    <h2><i class="fa fa-location-dot"></i>古德寺</h2>
+                                    <div class="hidden-content-carousel">
+                                        <span><i class="fa fa-clock"> 2 天</i></span>
+                                        <span><i class="fa fa-user"> 375+ </i></span>
+                                        <span><i class="fa fa-location-dot"> 武汉</i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-label">
+                                <p>120￥</p>
+                            </div>
+                        </div>
+                        <div class="carousel swiper-slide">
+                            <img src="./imgp/中华路码头.jpg" alt="">
+                            <div class="carousel-img-overlay">
+                                <div class="img-content">
+                                    <h2><i class="fa fa-location-dot"></i>中华路码头</h2>
+                                    <div class="hidden-content-carousel">
+                                        <span><i class="fa fa-clock"> 4 天</i></span>
+                                        <span><i class="fa fa-user"> 282+ </i></span>
+                                        <span><i class="fa fa-location-dot"> 武汉</i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-label">
+                                <p>36￥</p>
+                            </div>
+                        </div>
+                        <div class="carousel swiper-slide">
+                            <img src="./imgp/黎黄陂路.jpg" alt="">
+                            <div class="carousel-img-overlay">
+                                <div class="img-content">
+                                    <h2><i class="fa fa-location-dot"></i>黎黄陂路</h2>
+                                    <div class="hidden-content-carousel">
+                                        <span><i class="fa fa-clock"> 1 天</i></span>
+                                        <span><i class="fa fa-user"> 149+ </i></span>
+                                        <span><i class="fa fa-location-dot"> 武汉</i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-label">
+                                <p>22￥</p>
+                            </div>
+                        </div>
+                        <div class="carousel swiper-slide">
+                            <img src="./imgp/黄鹤楼楼.jpg" alt="">
+                            <div class="carousel-img-overlay">
+                                <div class="img-content">
+                                    <h2><i class="fa fa-location-dot"></i>黄鹤楼</h2>
+                                    <div class="hidden-content-carousel">
+                                        <span><i class="fa fa-clock"> 1 天</i></span>
+                                        <span><i class="fa fa-user"> 1035+ </i></span>
+                                        <span><i class="fa fa-location-dot"> 武汉</i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-label">
+                                <p>Free</p>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+             </div>
+            <!-- 柳州 -->
+             <div class="LiuZhou-cotent">
+                <div class="slider-content-wrapper swiper3">
+                    <!-- 幻灯片播放,重复代码 -->
+                    <div class="swiper-wrapper">
+                        
+                        <div class="carousel swiper-slide">
+                            <img src="./imgp/马鞍山.jpg" alt="">
+                            <div class="carousel-img-overlay">
+                                <div class="img-content">
+                                    <h2><i class="fa fa-location-dot"></i>马鞍山观景台</h2>
+                                    <div class="hidden-content-carousel">
+                                        <span><i class="fa fa-clock"> 3 天</i></span>
+                                        <span><i class="fa fa-user"> 145+ </i></span>
+                                        <span><i class="fa fa-location-dot"> 柳州</i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-label">
+                                <p>45￥</p>
+                            </div>
+                        </div>
+                        <div class="carousel swiper-slide">
+                            <img src="./imgp/窑埠古镇.jpg" alt="">
+                            <div class="carousel-img-overlay">
+                                <div class="img-content">
+                                    <h2><i class="fa fa-location-dot"></i>窑埠古镇</h2>
+                                    <div class="hidden-content-carousel">
+                                        <span><i class="fa fa-clock"> 2 天</i></span>
+                                        <span><i class="fa fa-user"> 421+ </i></span>
+                                        <span><i class="fa fa-location-dot"> 柳州</i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-label">
+                                <p>53￥</p>
+                            </div>
+                        </div>
+                        <div class="carousel swiper-slide">
+                            <img src="./imgp/柳州工业博物馆.jpg" alt="">
+                            <div class="carousel-img-overlay">
+                                <div class="img-content">
+                                    <h2><i class="fa fa-location-dot"></i>柳州工业博物馆</h2>
+                                    <div class="hidden-content-carousel">
+                                        <span><i class="fa fa-clock"> 1 天</i></span>
+                                        <span><i class="fa fa-user"> 352+ </i></span>
+                                        <span><i class="fa fa-location-dot"> 柳州</i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-label">
+                                <p>Free</p>
+                            </div>
+                        </div>
+                        <div class="carousel swiper-slide">
+                            <img src="./imgp/大龙潭公园.jpg" alt="">
+                            <div class="carousel-img-overlay">
+                                <div class="img-content">
+                                    <h2><i class="fa fa-location-dot"></i>大龙潭公园</h2>
+                                    <div class="hidden-content-carousel">
+                                        <span><i class="fa fa-clock"> 2 天</i></span>
+                                        <span><i class="fa fa-user"> 234+ </i></span>
+                                        <span><i class="fa fa-location-dot"> 柳州</i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-label">
+                                <p>63￥</p>
+                            </div>
+                        </div>
+                        <div class="carousel swiper-slide">
+                            <img src="./imgp/青云民生市场.jpg" alt="">
+                            <div class="carousel-img-overlay">
+                                <div class="img-content">
+                                    <h2><i class="fa fa-location-dot"></i>青云民生市场</h2>
+                                    <div class="hidden-content-carousel">
+                                        <span><i class="fa fa-clock"> 3 天</i></span>
+                                        <span><i class="fa fa-user"> 1028+ </i></span>
+                                        <span><i class="fa fa-location-dot"> 柳州</i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-label">
+                                <p>134￥</p>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+                <div class="proviences-content">
+                    <h2 class="secondary-headings">柳州 · 广西</h2>
+                    <p class="lead">
+                        欢迎来到柳州！这里不仅有迷人的马鞍山观景台，可以俯瞰城市美景；
+                        还有柳州工业博物馆，带您领略工业发展的魅力。窑埠古镇和百里柳江
+                        音乐喷泉，让您感受历史与现代的交融。大龙潭公园的自然风光，让您
+                        放松身心。别忘了去青云民生市场，品尝地道的柳州美食。柳州期待您
+                        的到来，享受美好时光！
+                    </p>
+                    <ul>
+                        <div class="proviences-names">
+                            <li><i class="fa fa-location-dot"></i>湖北</li>
+                            <li><i class="fa fa-location-dot"></i>上海</li>
+                            <li><i class="fa fa-location-dot"></i>浙江</li>
+                        </div>
+                        <div class="proviences-names">
+                            <li><i class="fa fa-location-dot"></i>北京</li>
+                            <li><i class="fa fa-location-dot"></i>广东</li>
+                            <li><i class="fa fa-location-dot"></i>广西</li>
+                        </div>
+                        <div class="proviences-names">
+                            <li><i class="fa fa-location-dot"></i>哈尔滨</li>
+                            <li><i class="fa fa-location-dot"></i>西藏</li>
+                            <li><i class="fa fa-location-dot"></i> . . . </li>
+                        </div>
+                            
+                        
+                    </ul>
+                    <button type="butten" class="primary-btn">
+                        所有旅行省份合集<i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
+             </div>
+
+
+        </div>
+    </section>
+
+    <!-- ================旅游国家 =============close -->
+
+
+    <!-- ================旅游 blog =============start -->
+    <section id="travel-blog">
+        <div class="container">
+            <p class="heading-normal-txt">旅行 BLOG</p>
+            <h2 class="headings">旅行<span>经历</span></h2>
+            <!-- 下面是粘贴上...上面的代码 -->
+            <div class="top-destination-wrapper swiper2">
+                <!-- 多张图片(但是图片最好是长的吧(图片大小要一样),虽然但是没长图),基本上是重复代码↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide blog">
+                        <img src="./imgp/法师桥日出.jpg" alt="">
+                        <div class="blog-img-overlay">
+                            <div class="blog-img-content">
+                                <h2>法师桥日出</h2>
+                                <p class="lead">从长沙出发的小型团体旅行</p>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>5 月</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide blog">
+                        <img src="./imgp/魔都出口.jpg" alt="">
+                        <div class="blog-img-overlay">
+                            <div class="blog-img-content">
+                                <h2>魔都出口</h2>
+                                <p class="lead">从北京出发的小型团体旅行</p>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>7 月</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide blog">
+                        <img src="./imgp/未来都市.jpg" alt="">
+                        <div class="blog-img-overlay">
+                            <div class="blog-img-content">
+                                <h2>未来都市</h2>
+                                <p class="lead">从江西出发的小型团体旅行</p>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>2 月</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide blog">
+                        <img src="./imgp/万国建筑群夜景.jpg" alt="">
+                        <div class="blog-img-overlay">
+                            <div class="blog-img-content">
+                                <h2>万国建筑群夜景</h2>
+                                <p class="lead">从南宁出发的小型团体旅行</p>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>11 月</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide blog">
+                        <img src="./imgp/进城之路.jpg" alt="">
+                        <div class="blog-img-overlay">
+                            <div class="blog-img-content">
+                                <h2>进城之路</h2>
+                                <p class="lead">从贵州出发的小型团体旅行</p>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>9 月</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide blog">
+                        <img src="./imgp/柳州紫荆花.jpg" alt="">
+                        <div class="blog-img-overlay">
+                            <div class="blog-img-content">
+                                <h2>紫荆花</h2>
+                                <p class="lead">从济南出发的小型团体旅行</p>
+                            </div>
+                        </div>
+                        <div class="price-label">
+                            <p>4 月</p>
+                        </div>
+                    </div>
+
+                    <!-- 多张图片,重复代码 ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================旅游 blog =============close -->
+
+
+
+    <!-- ================客户评价 testimonials=============start -->
+    <section id="testimonials">
+        <div class="container">
+            <p class="heading-normal-txt review">旅行 BLOG</p>
+            <h2 class="headings">旅 行 评 价</h2>
+            <div class="testimonials-wrapper swiper4">
+                <div class="swiper-wrapper">
+
+                    <div class="testimonials-content swiper-slide">
+                        <p class="lead">
+                            <i class="fa-solid fa-quote-left"></i>
+                            这次旅行让我收获满满，
+                            不仅领略了大自然的壮美，还体验了当
+                            地独特的文化。一路的风景如画，美食诱
+                            人，让人流连忘返，真是不虚此行！
+                            <i class="fa-solid fa-quote-right"></i>
+                        </p>
+                        <div class="test-img">
+                            <img src="./imgp/头像1.jpg" alt="">
+                        </div>
+                        <div class="icons">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            <p>Yoghur Snow</p>
+                            <p class="guest">游客评价</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonials-content swiper-slide">
+                        <p class="lead">
+                            <i class="fa-solid fa-quote-left"></i>
+                            旅行结束了，但那些美好的回忆还留在心底。从
+                            古老的建筑到热闹的市集，每一处都让我感受到
+                            不同的风情。这次出行，不仅放松了身心，也拓宽了视野。
+                            <i class="fa-solid fa-quote-right"></i>
+                        </p>
+                        <div class="test-img">
+                            <img src="./imgp/头像2.jpg" alt="">
+                        </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>AAAAAA</p>
+                            <p class="guest">游客评价</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonials-content swiper-slide">
+                        <p class="lead">
+                            <i class="fa-solid fa-quote-left"></i>
+                            这次旅行让我感受到了旅行的魅力，不同的地方
+                            有不同的风景和故事。在旅途中，我结识了许多
+                            有趣的人，也收获了许多难忘的回忆，期待下一次的出发。
+                            <i class="fa-solid fa-quote-right"></i>
+                        </p>
+                        <div class="test-img">
+                            <img src="./imgp/头像3.jpg" alt="">
+                        </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>BBBBBBBB</p>
+                            <p class="guest">游客评价</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================客户评价 testimonials=============close -->
+
+
+    <!-- ================footer in the end=============start -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="ft-content">
+                    <div class="icon">
+                        <i class="fa fa-phone-volume"></i>
+                    </div>
+                    <div class="content">
+                        <p class="lead">电话: </p>
+                        <p>+86 131 6567 1790</p>
+                    </div>
+                </div>
+                <div class="ft-content">
+                    <div class="icon">
+                        <i class="fa fa-envelope"></i>
+                        <!--  -->
+                    </div>
+                    <div class="content">
+                        <p class="lead">Email: </p>
+                        <p>xue1790@outlook.com</p>
+                    </div>
+                </div>
+                <div class="ft-content">
+                    <div class="icon">
+                        <i class="fa fa-map-location"></i>
+                    </div>
+                    <div class="content">
+                        <p class="lead">地址: </p>
+                        <p>广西科技大学</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer center 2 section -->
+            <div class="footer-wrapper">
+
+                <div class="about">
+                    <div class="img-logo">
+                        <img src="./imgp/logo透明3.png" alt="">
+                    </div>
+                    <p class="lead">
+                        这是一款精心打造的旅游推荐Web应用，汇聚了
+                        全球热门与小众景点信息。用户可根据兴趣、
+                        预算和时间筛选目的地，获取详尽攻略、实用
+                        攻略和用户评价。界面简洁易用，智能推荐系
+                        统助力发现心仪之旅，无论是城市漫步还是自
+                        然探险，都能轻松规划完美旅程，开启美好出行。
+                    </p>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-bilibili"></i>
+                        <i class="fa-brands fa-youtube"></i>
+
+                    </div>
+                </div>
+                <div class="links">
+                    <h2>跳转</h2>
+                    <ul>
+                        <li><a href="#">相关介绍</a></li>
+                        <li><a href="#">旅游方案</a></li>
+                        <li><a href="#">旅游景点</a></li>
+                        <li><a href="#">旅行经历</a></li>
+                        <li><a href="#">旅行评价</a></li>
+                    </ul>
+                </div>
+                <div class="subscribe">
+                    <h2>关注我们</h2>
+                    <p class="lead">你的关注,将是我们最大的动力</p>
+                    <form action="#">
+                        <input type="text" placeholder="Email Address" />
+                        <button type="button" class="button">发送</button>
+                    </form>
+                </div>
+            </div>
+                
+            <div class="footer">
+                <p>&copy; 2025 &nbsp;L✈T版权所有</p>
+            </div>
+
+
+             </div>
+        </div>
+    </footer>
+
+    <!-- ================footer in the end=============close -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/JS script.js"></script>
+</body>
+</html>
